@@ -1,3 +1,10 @@
 ** chat below **
+<<<<<<< Updated upstream
 
 Hello? -Davion
+=======
+Hello
+>>>>>>> Stashed changes
+
+
+Hello - Angela
