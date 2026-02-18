@@ -1,2 +1,6 @@
 ** chat below **
+<<<<<<< Updated upstream
 Did this work?
+=======
+Insert something
+>>>>>>> Stashed changes
