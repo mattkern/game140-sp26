@@ -1,6 +1,4 @@
 ** chat below **
-<<<<<<< Updated upstream
 Did this work?
-=======
-Insert something
->>>>>>> Stashed changes
+
+mk: hey this is a new comment
