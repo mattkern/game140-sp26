@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B9FE6BB6-378D-4680-B9DC-1DD63585EE23}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{B9FE6BB6-378D-4680-B9DC-1DD63585EE23}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Fire_IceGem_Player" ID="{04B1AC1E-C6A7-446A-9245-71687168E736}">
+					<ChildrenList>
+						<Action Name="" ID="{69A39B9E-EABA-40E3-8324-DAF797C69763}" ShortID="947425267">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gem_Recharge_Magic" ID="{1CA78613-6B2D-444E-AA5C-E1871A44D5A3}" WorkUnitID="{E714ADD9-137D-4443-8A70-3B51BD7EC47A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{41B70902-52CF-4764-B1B9-32D2FEB9BA8C}" ShortID="335663483">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gem_Recharge_Whoosh" ID="{E53ACBF1-B078-4058-B59B-0952D3B07324}" WorkUnitID="{E714ADD9-137D-4443-8A70-3B51BD7EC47A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4AAD68A4-467F-48CC-ADCD-8DF414E67EFE}" ShortID="29303318">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="IceGem_Blast" ID="{ABC21582-7F11-4248-851F-1AF3FF0268AF}" WorkUnitID="{E714ADD9-137D-4443-8A70-3B51BD7EC47A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4725663A-984B-4524-8203-96EABF2D3EF0}" ShortID="42262294">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{CEE255AA-8441-458F-AB84-96442A647779}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="0.4"/>
+													<Property Name="Min" Type="Real64" Value="-0.3"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gem_Breaking_Sequence" ID="{DB50A451-4B1D-403C-B531-731869DB9221}" WorkUnitID="{E714ADD9-137D-4443-8A70-3B51BD7EC47A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

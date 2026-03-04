@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BA3F78E2-0AC1-472B-BE25-7F396F1ED702}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{BA3F78E2-0AC1-472B-BE25-7F396F1ED702}" PersistMode="Standalone">
+			<ChildrenList>
+				<RandomSequenceContainer Name="Random1" ID="{2273E1B9-19F0-4A99-A705-5EC57D4ADFDB}" ShortID="1046480673">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D7E18722-C1B9-457D-9888-4AE82D4980AD}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46EDCCCB-4E21-4120-B5DF-6BAFB405C77C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Teleporter" ID="{F7234BFE-EA54-4433-8424-1588E49D2B6C}" ShortID="637720047">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>10</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{A0716AEC-B9C2-497A-B583-5C9616698B73}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="10"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D7E18722-C1B9-457D-9888-4AE82D4980AD}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46EDCCCB-4E21-4120-B5DF-6BAFB405C77C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Teleporter" ID="{2D09E1C2-7464-42BA-9F19-6B8A8DFEEFE7}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="4.77321814254861"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="4.49244060475162"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Teleporter.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="859887963"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Teleporter" ID="{2D09E1C2-7464-42BA-9F19-6B8A8DFEEFE7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="QSound_DSGNStngr_Impact Dirty Drum Huge Verb 1_PSE_BR-C_FdOEy" ID="{658C3699-64CD-4625-AB39-4F39B88167FF}" ShortID="251633644">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D7E18722-C1B9-457D-9888-4AE82D4980AD}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46EDCCCB-4E21-4120-B5DF-6BAFB405C77C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="QSound_DSGNStngr_Impact Dirty Drum Huge Verb 1_PSE_BR-C_FdOEy" ID="{8540C5B0-8701-4FAA-8ABA-201582372967}">
+									<Language>SFX</Language>
+									<AudioFile>QSound_DSGNStngr_Impact Dirty Drum Huge Verb 1_PSE_BR-C_FdOEy.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="599632683"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="QSound_DSGNStngr_Impact Dirty Drum Huge Verb 1_PSE_BR-C_FdOEy" ID="{8540C5B0-8701-4FAA-8ABA-201582372967}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Sequece1" ID="{AF65C86A-DA4E-4D5D-A67D-DAF44E8AF91B}" ShortID="640961698">
+					<PropertyList>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D7E18722-C1B9-457D-9888-4AE82D4980AD}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46EDCCCB-4E21-4120-B5DF-6BAFB405C77C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="QSound_BLLTImpt_Bullet Impact Car_PSE_BW-BD3HL_JPEWD" ID="{DB5B7CE7-33E1-4DAB-B49F-3A6E759B2872}" ShortID="494749604">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D7E18722-C1B9-457D-9888-4AE82D4980AD}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46EDCCCB-4E21-4120-B5DF-6BAFB405C77C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="QSound_BLLTImpt_Bullet Impact Car_PSE_BW-BD3HL_JPEWD" ID="{80527C71-4DC8-47F5-AA13-0986AC4FE15A}">
+									<Language>SFX</Language>
+									<AudioFile>QSound_BLLTImpt_Bullet Impact Car_PSE_BW-BD3HL_JPEWD.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="607265786"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="QSound_BLLTImpt_Bullet Impact Car_PSE_BW-BD3HL_JPEWD" ID="{80527C71-4DC8-47F5-AA13-0986AC4FE15A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="QSound_DESTRMisc_Impact Cardboard Box Med 07_PSE_BR-C_zlmJt" ID="{E89D3CFA-D2C7-4CB0-98E7-6AA81A3B2712}" ShortID="976861593">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D7E18722-C1B9-457D-9888-4AE82D4980AD}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46EDCCCB-4E21-4120-B5DF-6BAFB405C77C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="QSound_DESTRMisc_Impact Cardboard Box Med 07_PSE_BR-C_zlmJt" ID="{259E34EE-0D69-4061-A247-6A53AA672AFD}">
+									<Language>SFX</Language>
+									<AudioFile>QSound_DESTRMisc_Impact Cardboard Box Med 07_PSE_BR-C_zlmJt.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="88612641"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="QSound_DESTRMisc_Impact Cardboard Box Med 07_PSE_BR-C_zlmJt" ID="{259E34EE-0D69-4061-A247-6A53AA672AFD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="QSound_DSGNStngr_SFX Impact Metal Verb 2_PSE_BR-C_uz4pN" ID="{8E39C927-BD16-4878-A48D-840DBBC96212}" ShortID="863633505">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D7E18722-C1B9-457D-9888-4AE82D4980AD}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46EDCCCB-4E21-4120-B5DF-6BAFB405C77C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="QSound_DSGNStngr_SFX Impact Metal Verb 2_PSE_BR-C_uz4pN" ID="{31E77487-5ABF-4D6E-8744-2B4BF276703B}">
+									<Language>SFX</Language>
+									<AudioFile>QSound_DSGNStngr_SFX Impact Metal Verb 2_PSE_BR-C_uz4pN.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="555946514"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="QSound_DSGNStngr_SFX Impact Metal Verb 2_PSE_BR-C_uz4pN" ID="{31E77487-5ABF-4D6E-8744-2B4BF276703B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Playlist">
+							<Reference>
+								<ObjectRef Name="QSound_BLLTImpt_Bullet Impact Car_PSE_BW-BD3HL_JPEWD" ID="{DB5B7CE7-33E1-4DAB-B49F-3A6E759B2872}" WorkUnitID="{BA3F78E2-0AC1-472B-BE25-7F396F1ED702}"/>
+							</Reference>
+							<Reference>
+								<ObjectRef Name="QSound_DESTRMisc_Impact Cardboard Box Med 07_PSE_BR-C_zlmJt" ID="{E89D3CFA-D2C7-4CB0-98E7-6AA81A3B2712}" WorkUnitID="{BA3F78E2-0AC1-472B-BE25-7F396F1ED702}"/>
+							</Reference>
+							<Reference>
+								<ObjectRef Name="QSound_DSGNStngr_SFX Impact Metal Verb 2_PSE_BR-C_uz4pN" ID="{8E39C927-BD16-4878-A48D-840DBBC96212}" WorkUnitID="{BA3F78E2-0AC1-472B-BE25-7F396F1ED702}"/>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</RandomSequenceContainer>
+				<SwitchContainer Name="Switch1" ID="{A92F0697-3C2D-42D4-A167-10462B042A78}" ShortID="987600543">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D7E18722-C1B9-457D-9888-4AE82D4980AD}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46EDCCCB-4E21-4120-B5DF-6BAFB405C77C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="QSound_CHAINImpt_SFX Magic Chains Drop Impact_PSE_BR-C_tXDqE(2)" ID="{C205FEAF-B244-4E15-B035-4607A5EF2A67}" ShortID="32064337">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D7E18722-C1B9-457D-9888-4AE82D4980AD}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46EDCCCB-4E21-4120-B5DF-6BAFB405C77C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="QSound_CHAINImpt_SFX Magic Chains Drop Impact_PSE_BR-C_tXDqE(2)" ID="{B79557A1-C794-4B4F-A057-886E1B234463}">
+									<Language>SFX</Language>
+									<AudioFile>QSound_CHAINImpt_SFX Magic Chains Drop Impact_PSE_BR-C_tXDqE(2).wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="830201767"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="QSound_CHAINImpt_SFX Magic Chains Drop Impact_PSE_BR-C_tXDqE(2)" ID="{B79557A1-C794-4B4F-A057-886E1B234463}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="QSound_DSGNStngr_SFX Impact Digital Blast 1_PSE_BR-C_csx4U" ID="{DDD149FF-103C-4752-9026-C28650BA27F0}" ShortID="433435606">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D7E18722-C1B9-457D-9888-4AE82D4980AD}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46EDCCCB-4E21-4120-B5DF-6BAFB405C77C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="QSound_DSGNStngr_SFX Impact Digital Blast 1_PSE_BR-C_csx4U" ID="{08821589-222B-4787-AD68-07ED009991F3}">
+									<Language>SFX</Language>
+									<AudioFile>QSound_DSGNStngr_SFX Impact Digital Blast 1_PSE_BR-C_csx4U.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="578766367"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="QSound_DSGNStngr_SFX Impact Digital Blast 1_PSE_BR-C_csx4U" ID="{08821589-222B-4787-AD68-07ED009991F3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="QSound_CHAINImpt_SFX Magic Chains Drop Impact_PSE_BR-C_tXDqE(2)" ID="{C205FEAF-B244-4E15-B035-4607A5EF2A67}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="QSound_DSGNStngr_SFX Impact Digital Blast 1_PSE_BR-C_csx4U" ID="{DDD149FF-103C-4752-9026-C28650BA27F0}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+					</GroupingInfo>
+				</SwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

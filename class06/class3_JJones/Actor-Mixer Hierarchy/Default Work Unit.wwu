@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E714ADD9-137D-4443-8A70-3B51BD7EC47A}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{E714ADD9-137D-4443-8A70-3B51BD7EC47A}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="IceGem_Blast" ID="{ABC21582-7F11-4248-851F-1AF3FF0268AF}" ShortID="587970646">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7644F78F-9D9D-43DF-919E-8BAB88F7595E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50B01510-1271-4B42-9C30-A2BB9C40E49E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="IceGem_Blast" ID="{F18976C6-4E76-41D1-9D5A-D14D359789C3}">
+							<Language>SFX</Language>
+							<AudioFile>IceGem_Blast.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="737941655"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="IceGem_Blast" ID="{F18976C6-4E76-41D1-9D5A-D14D359789C3}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Gem_Recharge_Magic" ID="{1CA78613-6B2D-444E-AA5C-E1871A44D5A3}" ShortID="692861559">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{3218F38F-0F1D-40BB-9A72-FB83BA9F8457}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="556"/>
+											<Property Name="Min" Type="Real64" Value="-354"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7644F78F-9D9D-43DF-919E-8BAB88F7595E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50B01510-1271-4B42-9C30-A2BB9C40E49E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Gem_Recharge" ID="{723338A0-E34F-4875-AE0E-4DE0BB64D50A}">
+							<PropertyList>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.23515625"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="1.32628125"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Gem_Recharge.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="805979256"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Gem_Recharge" ID="{723338A0-E34F-4875-AE0E-4DE0BB64D50A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Gem_Recharge_Whoosh" ID="{E53ACBF1-B078-4058-B59B-0952D3B07324}" ShortID="660064399">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7644F78F-9D9D-43DF-919E-8BAB88F7595E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50B01510-1271-4B42-9C30-A2BB9C40E49E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Gem_Recharge" ID="{DC396E9E-65E5-497C-8FC3-D9E1E92EFDE1}">
+							<PropertyList>
+								<Property Name="LoopBegin" Type="Real64" Value="0"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="1.32941666666667"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Gem_Recharge.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="385519918"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Gem_Recharge" ID="{DC396E9E-65E5-497C-8FC3-D9E1E92EFDE1}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="Gem_Breaking_Sequence" ID="{DB50A451-4B1D-403C-B531-731869DB9221}" ShortID="689509460">
+					<PropertyList>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7644F78F-9D9D-43DF-919E-8BAB88F7595E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50B01510-1271-4B42-9C30-A2BB9C40E49E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Gem_Breaking_Head" ID="{79AEE53F-F60D-48F5-98BE-FCB636A35FBA}" ShortID="182989563">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{601112AF-887C-480A-B276-3EFEFCACD52D}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="23"/>
+													<Property Name="Min" Type="Real64" Value="-23"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7644F78F-9D9D-43DF-919E-8BAB88F7595E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50B01510-1271-4B42-9C30-A2BB9C40E49E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Gem_Breaking-01" ID="{22E3DDE2-D97A-4A89-BE19-CC21FCD888F1}" ShortID="451316117">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7644F78F-9D9D-43DF-919E-8BAB88F7595E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50B01510-1271-4B42-9C30-A2BB9C40E49E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Gem_Breaking-01" ID="{93BA0FD5-BFFD-4B22-9374-3240823F83CB}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0947917562724016"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.134520654121864"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Gem_Breaking-01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="127227205"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Gem_Breaking-01" ID="{93BA0FD5-BFFD-4B22-9374-3240823F83CB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Gem_Breaking-02" ID="{FC26EA87-759B-47D0-AB9B-C1F64CDDDC72}" ShortID="148710604">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7644F78F-9D9D-43DF-919E-8BAB88F7595E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50B01510-1271-4B42-9C30-A2BB9C40E49E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Gem_Breaking-02" ID="{E4BA7B65-4FC3-44BB-A35B-5820CF125381}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0901080827067669"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.18327067669173"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Gem_Breaking-02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="62388581"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Gem_Breaking-02" ID="{E4BA7B65-4FC3-44BB-A35B-5820CF125381}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Gem_Breaking-03" ID="{F491DF12-B51F-40CA-A0E0-573C1EF0D0B8}" ShortID="128039218">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7644F78F-9D9D-43DF-919E-8BAB88F7595E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50B01510-1271-4B42-9C30-A2BB9C40E49E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Gem_Breaking-03" ID="{F49B8FE1-38C5-4FE7-937D-F88FE7276DFE}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.051843045112782"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.111366541353384"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Gem_Breaking-03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="177965465"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Gem_Breaking-03" ID="{F49B8FE1-38C5-4FE7-937D-F88FE7276DFE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Gem_Breaking-04" ID="{3AD3915D-C75E-4C94-8EA0-06D95CF3348F}" ShortID="1022461681">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7644F78F-9D9D-43DF-919E-8BAB88F7595E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50B01510-1271-4B42-9C30-A2BB9C40E49E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Gem_Breaking-04" ID="{AF287FD4-4CDC-4A89-BEF6-99523C8FD254}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0448837719298246"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.119079394915861"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Gem_Breaking-04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="148083592"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Gem_Breaking-04" ID="{AF287FD4-4CDC-4A89-BEF6-99523C8FD254}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Gem_Breaking-05" ID="{D6D275DB-BC4E-42F7-81BB-4A649E3FFC8A}" ShortID="86978006">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7644F78F-9D9D-43DF-919E-8BAB88F7595E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50B01510-1271-4B42-9C30-A2BB9C40E49E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Gem_Breaking-05" ID="{A4FC6ADF-2C99-42F3-851B-338B27936CB9}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.122919642857143"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.219037258324382"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Gem_Breaking-05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="403787511"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Gem_Breaking-05" ID="{A4FC6ADF-2C99-42F3-851B-338B27936CB9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Gem_Breaking-06" ID="{2FEE1DB6-56A7-4584-83F0-418274D3D412}" ShortID="474296286">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7644F78F-9D9D-43DF-919E-8BAB88F7595E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50B01510-1271-4B42-9C30-A2BB9C40E49E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Gem_Breaking-06" ID="{A4E59392-CA55-407F-827E-C1543D998FBA}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.110249686716792"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.275160982814178"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Gem_Breaking-06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="15718794"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Gem_Breaking-06" ID="{A4E59392-CA55-407F-827E-C1543D998FBA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Gem_Breaking_Tail" ID="{D38D8875-1ADA-44E3-BF7E-362A77CF2945}" ShortID="431442070">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{12D6C3AD-38B6-49BE-A483-0106C7F59A2B}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="27"/>
+													<Property Name="Min" Type="Real64" Value="-27"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7644F78F-9D9D-43DF-919E-8BAB88F7595E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50B01510-1271-4B42-9C30-A2BB9C40E49E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Gem_Breaking-01" ID="{E11D5625-28CC-4615-87D4-47A3F0D7F4CF}" ShortID="823266925">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7644F78F-9D9D-43DF-919E-8BAB88F7595E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50B01510-1271-4B42-9C30-A2BB9C40E49E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Gem_Breaking-01" ID="{8848BC66-0231-453E-A910-01CDB4D8D3A5}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0529149659863946"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.131732661290322"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Gem_Breaking-01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1040541978"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Gem_Breaking-01" ID="{8848BC66-0231-453E-A910-01CDB4D8D3A5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Gem_Breaking-02" ID="{22DC8FF5-F292-4773-AC71-675A5DE9FB65}" ShortID="399885142">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7644F78F-9D9D-43DF-919E-8BAB88F7595E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50B01510-1271-4B42-9C30-A2BB9C40E49E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Gem_Breaking-02" ID="{59D2F0C0-2BD7-4870-A970-7A6B6ECE87DD}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0442904135338346"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.14890742481203"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Gem_Breaking-02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="467666172"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Gem_Breaking-02" ID="{59D2F0C0-2BD7-4870-A970-7A6B6ECE87DD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Gem_Breaking-03" ID="{6BF08487-6276-48ED-95CB-7E465180DAF2}" ShortID="963467372">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7644F78F-9D9D-43DF-919E-8BAB88F7595E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50B01510-1271-4B42-9C30-A2BB9C40E49E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Gem_Breaking-03" ID="{4606B1D0-805A-4D1F-A3E8-734777DB9CD6}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0854450187969925"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.114246710526316"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Gem_Breaking-03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="150303183"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Gem_Breaking-03" ID="{4606B1D0-805A-4D1F-A3E8-734777DB9CD6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Gem_Breaking-04" ID="{2EAC7229-D2DB-461A-B2A9-2C83C8FE8263}" ShortID="694667851">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7644F78F-9D9D-43DF-919E-8BAB88F7595E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50B01510-1271-4B42-9C30-A2BB9C40E49E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Gem_Breaking-04" ID="{893B7665-BB7B-4FAA-843C-AB03FE9F475B}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0494637486573577"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.119079394915861"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Gem_Breaking-04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="259249048"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Gem_Breaking-04" ID="{893B7665-BB7B-4FAA-843C-AB03FE9F475B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Gem_Breaking-05" ID="{72970F96-41B3-4886-9C07-F55A093C4002}" ShortID="386210094">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7644F78F-9D9D-43DF-919E-8BAB88F7595E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50B01510-1271-4B42-9C30-A2BB9C40E49E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Gem_Breaking-05" ID="{9015DA81-DBA4-4DBF-906C-5B872CA10396}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0360441058002148"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.175599489795918"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Gem_Breaking-05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="816332773"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Gem_Breaking-05" ID="{9015DA81-DBA4-4DBF-906C-5B872CA10396}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Gem_Breaking-06" ID="{DFE6B549-891C-40A5-AD73-C3D03095EE50}" ShortID="122927654">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7644F78F-9D9D-43DF-919E-8BAB88F7595E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50B01510-1271-4B42-9C30-A2BB9C40E49E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Gem_Breaking-06" ID="{64F16132-2B76-4AA2-830A-B5A185BD53C3}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0602204171142141"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.234396392767633"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Gem_Breaking-06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="956600223"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Gem_Breaking-06" ID="{64F16132-2B76-4AA2-830A-B5A185BD53C3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<Sound Name="Silence" ID="{1012C1DE-69ED-43C4-BAB6-664D33D1CC12}" ShortID="19296426">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7644F78F-9D9D-43DF-919E-8BAB88F7595E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{50B01510-1271-4B42-9C30-A2BB9C40E49E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SourcePlugin Name="Silence" ID="{BD637B4F-E45F-4612-8465-7B076090C290}" ShortID="181614876" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+									<PropertyList>
+										<Property Name="Length" Type="Real32" Value="0.25"/>
+									</PropertyList>
+									<Language>SFX</Language>
+								</SourcePlugin>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Silence" ID="{BD637B4F-E45F-4612-8465-7B076090C290}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Playlist">
+							<Reference>
+								<ObjectRef Name="Gem_Breaking_Head" ID="{79AEE53F-F60D-48F5-98BE-FCB636A35FBA}" WorkUnitID="{E714ADD9-137D-4443-8A70-3B51BD7EC47A}"/>
+							</Reference>
+							<Reference>
+								<ObjectRef Name="Silence" ID="{1012C1DE-69ED-43C4-BAB6-664D33D1CC12}" WorkUnitID="{E714ADD9-137D-4443-8A70-3B51BD7EC47A}"/>
+							</Reference>
+							<Reference>
+								<ObjectRef Name="Gem_Breaking_Tail" ID="{D38D8875-1ADA-44E3-BF7E-362A77CF2945}" WorkUnitID="{E714ADD9-137D-4443-8A70-3B51BD7EC47A}"/>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
