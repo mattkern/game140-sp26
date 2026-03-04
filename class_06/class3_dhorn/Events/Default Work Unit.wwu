@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{96BF3B03-0A71-4583-ADF8-4A96F3C4A8FC}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{96BF3B03-0A71-4583-ADF8-4A96F3C4A8FC}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Fire_IceGem_Player" ID="{85F6769C-6B1D-4A8F-84AB-BD67EF3D8722}">
+					<ChildrenList>
+						<Action Name="" ID="{A9ADF0D4-C4AA-471E-9F48-B399B329E824}" ShortID="26237503">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{D2BF216D-2467-4EAE-80F9-7D8A97AF9A95}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="2"/>
+													<Property Name="Min" Type="Real64" Value="-2"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="FadeInCurve" Type="int16" Value="6"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gem_Recharge_Magic" ID="{B8D81048-1240-4EBB-8F61-6F3BC2D9CF95}" WorkUnitID="{53ECD84C-7663-4C4B-A410-B864EA8BEAFF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1D901BD4-E958-4A39-BB30-3BA932669344}" ShortID="130212931">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gem_Recharge_Whoosh" ID="{1E7EEE59-1F95-446C-8A06-3FDD78C3E39D}" WorkUnitID="{53ECD84C-7663-4C4B-A410-B864EA8BEAFF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8F0AAADC-42EB-40AE-84F1-35FBFF0C1F00}" ShortID="110835493">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="IceGem_Blast" ID="{EB48FB34-AFD9-4842-B9A9-7190129169FD}" WorkUnitID="{53ECD84C-7663-4C4B-A410-B864EA8BEAFF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D458BC22-956D-4381-AFBF-6B70D74BD2CB}" ShortID="1021168258">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{43A6174E-6346-4823-BB84-0DBBCE3A7E5A}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="6"/>
+													<Property Name="Min" Type="Real64" Value="-5"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gem Drop" ID="{F88019B9-6031-41F0-80B8-1041FE59C146}" WorkUnitID="{53ECD84C-7663-4C4B-A410-B864EA8BEAFF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
